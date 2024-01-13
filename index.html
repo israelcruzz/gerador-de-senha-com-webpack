@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./src/images/icon.svg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <main class="content">
+        <section class="img">
+            <img src="./src/images/icon.svg">
+        </section>
+
+        <section class="inputs">
+            <h1 class="title">Gerador de Senha</h1>
+
+            <div class="campo-gerador">
+                <span class="gerar-senha">Gere Sua Senha</span>
+            </div>
+
+            <div class="inpts">
+                Quantidade de Caracteres<input type="number" class="quantidade_caracters" value="1" min="0" max="20">
+            </div>
+            <div class="inpts">
+                Adicionar letras Maiusculas<input type="checkbox" class="maiusculas">
+            </div>
+            <div class="inpts">
+                Adicionar letras Minusculas<input type="checkbox" class="minusculas">
+            </div>
+            <div class="inpts">
+                Adicionar Números<input type="checkbox" class="numeros">
+            </div>
+            <div class="inpts">
+                Adicionar Simbolos<input type="checkbox" class="simbolos">
+            </div>
+
+            <button type="submit" class="btn-gerador">Gerar Senha</button>
+        </section>
+    </main>
+
+    <script src="./dist/bundle.js" defer></script>
+</body>
+</html>
